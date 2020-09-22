@@ -17,7 +17,7 @@ def write_int32_snappy_parquet():
 
     cols = ['ID', 'Gender', 'Age', 'AccX_int32', 'AccY_int32', 'AccZ_int32', 'GyroX_int32', 'GyroY_int32', 'GyroZ_int32']
 
-    df2[cols].to_parquet('tmp/int32_parquet/prime_writing_data1.snappy.parquet', compression = 'snappy')
+    df2[cols].to_parquet('tmp/int32_parquet/int32_writing_data1.snappy.parquet', compression = 'snappy')
 
 
 def write_int32_prime_snappy_parquet():
